@@ -18,7 +18,7 @@ var Footer = React.createClass({
 		}
 	},
 	render:function(){
-		setTimeout(()=>{this.setState({ user: 'Anil', id :'494'})},5000);
+		setTimeout(()=>{this.setState({ user: 'Max', id :'494'})},5000);
 		return(
 		<div>
 			<h3>User is : {this.state.user}</h3>
